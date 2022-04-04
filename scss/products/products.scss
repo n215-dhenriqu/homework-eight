@@ -1,0 +1,52 @@
+.fullpages {
+  padding: 50px;
+
+  .item {
+    width: 900px;
+    min-height: 50px;
+
+    margin: 0 auto;
+
+    .items {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+
+      .item-pic {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-image: url(../images/tour-03.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .item-pics {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-image: url(../images/usa-tour-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .items-pic {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-image: url(../images/usa-tour-03.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .item-text {
+        margin-top: 15px;
+        width: 700px;
+        font-size: 16.75px;
+      }
+    }
+  }
+}

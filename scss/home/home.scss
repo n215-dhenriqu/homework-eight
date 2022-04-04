@@ -1,0 +1,72 @@
+.content {
+  //   background-color: bisque;
+  padding: 50px;
+
+  .products {
+    width: 900px;
+    min-height: 50px;
+
+    margin: 0 auto;
+
+    .product {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+
+      .prod-image {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-image: url(../images/japan-tour-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .prod-images {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-image: url(../images/japan-tour-03.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .prods-image {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-image: url(../images/israel-tour-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .prods-images {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+
+        background-image: url(../images/israel-tour-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .prod-imaged {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-image: url(../images/japan-tour-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .prod-desc {
+        width: 500px;
+      }
+    }
+  }
+}

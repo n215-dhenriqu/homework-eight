@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+h1 {
+  color: #338dff;
+  font-size: 80px;
+  font-style: italic;
+  position: absolute;
+  top: 795px;
+  left: -170px;
+  width: 510px;
+  text-align: right;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  letter-spacing: 40px;
+}
+
+nav {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+nav a {
+  text-decoration: none;
+  color: #338dff;
+}
+
+footer {
+  height: 165px;
+  width: 100%;
+  background-color: #338dff;
+  margin-top: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 16px;
+  color: white;
+}
+
+.hero {
+  height: 330px;
+  margin-top: 40px;
+  background-image: url(../images/japan-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  padding: 50px;
+}
+.content .products {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.content .products .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content .products .product .prod-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: url(../images/japan-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .products .product .prod-images {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: url(../images/japan-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .products .product .prods-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: url(../images/israel-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .products .product .prods-images {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: url(../images/israel-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .products .product .prod-imaged {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: url(../images/japan-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .products .product .prod-desc {
+  width: 500px;
+}
+
+.banner {
+  height: 330px;
+  background-color: bisque;
+  background-image: url(../images/nz-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fullpage {
+  padding: 50px;
+}
+.fullpage .pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.fullpage .pic .trip1 {
+  width: 236px;
+  height: 304px;
+  background-color: blue;
+  background-image: url(../images/nz-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fullpage .pic .trip2 {
+  width: 236px;
+  height: 304px;
+  background-image: url(../images/usa-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-page {
+  width: 1226px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.home-page .text {
+  margin-bottom: 20px;
+  width: 513px;
+  height: 190px;
+  float: left;
+  margin: 137px;
+}
+.home-page .text2 {
+  width: 513px;
+  height: 190px;
+  float: right;
+}
+
+.banners {
+  height: 330px;
+  background-image: url(../images/uae-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fullpages {
+  padding: 50px;
+}
+.fullpages .item {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.fullpages .item .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+.fullpages .item .items .item-pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: url(../images/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fullpages .item .items .item-pics {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: url(../images/usa-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fullpages .item .items .items-pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: url(../images/usa-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fullpages .item .items .item-text {
+  margin-top: 15px;
+  width: 700px;
+  font-size: 16.75px;
+}
+
+.outer {
+  width: 1014px;
+  margin-left: 176px;
+  margin-right: 176px;
+  margin-top: 230px;
+  margin-bottom: 165px;
+  margin: 0 auto;
+}
+.outer .form {
+  margin-bottom: 50px;
+}
+.outer .box {
+  width: 1014px;
+  height: 81px;
+  border: 3px solid #338dff;
+  margin-top: 25px;
+}
+
+.button1 {
+  margin-top: 10px;
+}
+
+.but1 {
+  background-color: #338dff;
+  height: 76px;
+  width: 246px;
+  border-radius: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.button {
+  margin-top: 90px;
+  background-color: #338dff;
+  height: 76px;
+  width: 246px;
+  border-radius: 38px;
+}
+
+.logo {
+  height: 330px;
+  margin-bottom: 50px;
+  background-image: url(../images/hero-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

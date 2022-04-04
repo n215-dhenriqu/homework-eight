@@ -1,0 +1,41 @@
+.outer {
+  width: 1014px;
+  margin-left: 176px;
+  margin-right: 176px;
+  margin-top: 230px;
+  margin-bottom: 165px;
+  margin: 0 auto;
+
+  .form {
+    margin-bottom: 50px;
+  }
+  .box {
+    width: 1014px;
+    height: 81px;
+    border: 3px solid #338dff;
+    margin-top: 25px;
+  }
+}
+
+.button1 {
+  margin-top: 10px;
+}
+.but1 {
+  background-color: #338dff;
+  height: 76px;
+  width: 246px;
+  border-radius: 38px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.button {
+  margin-top: 90px;
+  background-color: #338dff;
+  height: 76px;
+  width: 246px;
+  border-radius: 38px;
+}
